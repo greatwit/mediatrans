@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="源文件\net">
+      <UniqueIdentifier>{f8a10af8-fb8a-4ec9-b6f8-f5b70d843e79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\common">
+      <UniqueIdentifier>{70592bb3-e0e7-4607-a046-0fa33d902fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\system">
+      <UniqueIdentifier>{f841b04f-c6bf-45c5-8e4a-694f7880cc8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\hnproto">
+      <UniqueIdentifier>{29933cd3-bd2a-42ee-b07d-23f3ed999dfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="net\epoll.c">
+      <Filter>源文件\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\kqueue.c">
+      <Filter>源文件\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\net_api.c">
+      <Filter>源文件\net</Filter>
+    </ClCompile>
+    <ClCompile Include="net\select.c">
+      <Filter>源文件\net</Filter>
+    </ClCompile>
+    <ClCompile Include="common\HnComn.cpp">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\HnMd5.c">
+      <Filter>源文件\common</Filter>
+    </ClCompile>
+    <ClCompile Include="system\datacache.c">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\date_time.c">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\hash.c">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\list.c">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\log.c">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\memory.c">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\os_api.c">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\queue.c">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="system\timer.c">
+      <Filter>源文件\system</Filter>
+    </ClCompile>
+    <ClCompile Include="hnproto\AndroidHNnetApi.c">
+      <Filter>源文件\hnproto</Filter>
+    </ClCompile>
+    <ClCompile Include="hnproto\HNnet.cpp">
+      <Filter>源文件\hnproto</Filter>
+    </ClCompile>
+    <ClCompile Include="hnproto\HNnetApi.c">
+      <Filter>源文件\hnproto</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="net\epoll.h">
+      <Filter>源文件\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\kqueue.h">
+      <Filter>源文件\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\net_api.h">
+      <Filter>源文件\net</Filter>
+    </ClInclude>
+    <ClInclude Include="net\select.h">
+      <Filter>源文件\net</Filter>
+    </ClInclude>
+    <ClInclude Include="common\config.h">
+      <Filter>源文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\HnComn.h">
+      <Filter>源文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\HnMd5.h">
+      <Filter>源文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\HnProto.h">
+      <Filter>源文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\typedefs.h">
+      <Filter>源文件\common</Filter>
+    </ClInclude>
+    <ClInclude Include="system\datacache.h">
+      <Filter>源文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\date_time.h">
+      <Filter>源文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\hash.h">
+      <Filter>源文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\list.h">
+      <Filter>源文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\log.h">
+      <Filter>源文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\memory.h">
+      <Filter>源文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\os_api.h">
+      <Filter>源文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\queue.h">
+      <Filter>源文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="system\timer.h">
+      <Filter>源文件\system</Filter>
+    </ClInclude>
+    <ClInclude Include="hnproto\HNnetApi.h">
+      <Filter>源文件\hnproto</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>
