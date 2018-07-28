@@ -8,8 +8,8 @@
 #define LENGTH 16
 static const char g_HexTab[]="0123456789abcdef";
 
-/* MD5 context. */
-typedef struct MD5Context 
+/* MD5 context. test*/
+typedef struct MD5Context
 {
 	DWORD state[4];	/* state (ABCD) */
 	DWORD count[2];	/* number of bits, modulo 2^64 (lsb first) */
